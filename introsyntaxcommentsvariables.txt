@@ -1,0 +1,41 @@
+'''
+'camel case'
+aNum = 9
+someText = "lorem ipsum"
+print(aNum, someText)
+
+'pascal case'
+AnItem = "table"
+print(AnItem)
+
+'snake case'
+some_Object = "dog"
+print(some_Object)
+
+x, y, z = 4, 5, 6
+print(x)
+print(y)
+print(z)
+
+x = y = z = 4
+print(x)
+print(y)
+print(z)
+
+nums = [5, 6, 7]
+x, y, z = nums
+print(x)
+print(y)
+print(z)
+
+a = "word"
+b = " text"
+print(a,b)
+print(a + b)
+
+SomeObject = 'object'
+print(SomeObject)
+
+a, b, c, d = 4, 5, 6, 7
+print(a, b, c, d)
+'''

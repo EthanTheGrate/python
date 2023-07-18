@@ -1,0 +1,55 @@
+'''
+x="lorem ipsum"
+print(x)
+print(type(x))
+print(len(x))
+
+y="dolor sit"
+print(x, y)
+print(y[4])
+for y in "four":
+    print(x)
+
+z="amet consecteteur adipiscing elit"
+print("amet" in z)
+print(z[2:15])
+
+x="sfe"
+-3 -2 -1
+print (x[-2:])
+
+y="amusement"
+print(y[5:8])
+print(y[-4:-1])
+
+z="pneumonoultramicroscopicsilicovolcanoconiosis"
+print(z[8:13])
+
+x="CAP"
+print(x.lower())
+x="low"
+print(x.upper())
+print(x.capitalize())
+
+y="              hi whats up               "
+print(y.strip())
+print(y.replace("hi", "hello"))
+
+x=y.split("i")
+print(x)
+
+x="etinn"
+x=x.replace("tin", "tha")
+print(x.capitalize())
+
+y="          bui      "
+y=y.strip()
+print(y.upper())
+x=y.split(" ")
+print(x)
+
+x="lorem"
+y="ipsum"
+print(x,y)
+print(x + " " + y)
+'''

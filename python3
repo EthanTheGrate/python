@@ -1,0 +1,82 @@
+'''
+kids=420
+cops=69
+text="I kidnapped {} kids and got chased by {} cops."
+print(text.format(kids, cops))
+
+text="lorem \nipsum"
+print(text)
+text="lorem \tipsum"
+print(text)
+text="lorem \bipsum"
+print(text)
+
+print(69 == 69)
+print(420 > 69)
+print(420 < 69)
+print(420 <= 420)
+if 69 > 420:
+    print("69 bigger")
+else:
+    print("420 bigger")
+    
+print(bool(True))
+print(bool())
+print(bool(1))
+print(bool(None))
+print(bool(""))
+x="placeholder"
+y=0
+print(bool(x))
+print(bool(y))
+
+x=69
+y=420
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)
+print(x**y)
+print(x//y)
+print("______________")
+a=2
+print(a)
+a=69
+a+=2
+print(a)
+a=69
+a-=2
+print(a)
+a=69
+a*=2
+a=69
+a/=2
+print(a)
+a=69
+a**=2
+print(a)
+a=69
+a//=2
+print(a)
+a=69
+a&=2
+print(a)
+a=69
+a>>=2
+print(a)
+a=69
+a<<=2
+print(a)
+a=69
+a|=2
+print(a)
+
+x=69
+y=420
+print(x==y)
+print(x!=y)
+print(x>=y)
+print(x<=y)
+print(x<y)
+print(x>y)
+'''

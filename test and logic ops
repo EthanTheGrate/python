@@ -1,0 +1,134 @@
+'''multi
+line
+comment'''
+'''
+#single comment
+print("text")
+print(5)
+var = 5
+string = "lorem ipsum"
+print(var)
+print(string)
+print(var, string)
+
+num = 69
+text = "placeholder"
+print(type(num))
+print(type(text))
+
+#snake case
+my_num = 69420
+#camel case
+myNum = 42069
+#pascal case
+MyNum = 73254
+
+var, arv, rav = 22, 44, 55
+print(var, arv, rav)
+
+group = {66, 44 , 22}
+var, arv, rav = group
+print(var, arv, rav)
+
+var = arv = rav = 69
+print(var, arv, rav)
+
+text = "I assaulted"
+second = "grandmas"
+print(text, var, second)
+print(text + " " + second)
+
+text = "lorem ipsum"
+sus = True
+num = 5
+spenum = 5.5
+comnum = 53j
+print(type(text))
+print(type(sus))
+print(type(num))
+print(type(spenum))
+print(type(comnum))
+
+longtext = "embellishment"
+print(len(longtext))
+
+text="amusement"
+print(text[5])
+
+text = "embellishment"
+for text in "embellishment":
+    print(text)
+
+if "thursday" in "Its thursday":
+    print("Its thursday")
+else:
+    print("Its not thursday")
+
+text="professional"
+print(text[8:10])
+
+sentence="   Lorem ipsum dolor sit amet      "
+print(sentence.strip())
+
+x="lorem ipsum"
+print(x.split(" "))
+
+text="bigger"
+print(text.replace("bigger", "trigger"))
+
+sentence="today is friday"
+print(sentence.capitalize())
+
+meSentence="I am {}.\nI am {} years old.\nI am {} feet tall"
+feet=10000000
+years=13
+name="Ethan"
+print(meSentence.format(name, years, feet))
+
+text="False"
+num=1
+textSec="True"
+numSec=1
+print(text==textSec)
+print(num==numSec)
+
+numFirst=1
+numSecond=2
+numThird=3
+print(numFirst>numSecond)
+print(numThird!=numThird)
+
+x=13
+y=15
+print(x+y)
+print(x/y)
+
+x=69
+x&=69
+print(x)
+y=420
+y|=420
+print(y)
+
+print(x < y)
+print(x > y)
+
+x=69
+print(x > 5 and x < 77)
+print(x < 77 or x < 9)
+print(not(x > 77 and x < 50))
+print("___________________1________________")
+
+x=["item", "table", "chair"]
+y=["chicken", "cow", "pig"]
+z=y
+print(y is z)
+print(x is z)
+print(y is not z)
+print(x is not z)
+print("____________________2_______________")
+
+x=["x", "y"]
+print("x" in x)
+print("y" not in x)
+'''

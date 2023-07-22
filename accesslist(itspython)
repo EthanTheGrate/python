@@ -1,0 +1,15 @@
+'''
+items=["table", "chair", "box"]
+print(items)
+numbers=[1, 2, 3]
+print(numbers)
+print(type(items))
+print(len(numbers))
+
+theList=list(("table", "chair"))
+print(theList)
+
+x=["lorem", "ipsum", "dolor", "sit", "amet"]
+print(x[0:3])
+print(x[-4:-1])
+'''

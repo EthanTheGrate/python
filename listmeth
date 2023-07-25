@@ -1,0 +1,103 @@
+'''
+aList=["table","chair","liver","chickenwing","pepperoni"]
+aList[2]="leg"
+print(aList)
+
+aList=["table","chair","liver","chickenwing","pepperoni"]
+aList[1:4]=["pizza","zizza"]
+print(aList)
+
+aList=["table","chair","liver","chickenwing","pepperoni"]
+aList[1:4]=["pizza"]
+print(aList)
+
+aList=["table","chair","liver","chickenwing","pepperoni"]
+aList.append("pizza")
+print(aList)
+
+shape=["square","circle"]
+color=["red","yellow"]
+shape.append(color)
+print(shape)
+
+shape=["red","yellow"]
+shape.insert(1,"blue")
+print(shape)
+
+#practice
+
+realList=["item","object","consumable","utility","tool"]
+realList[3]="what"
+print(realList)
+
+realList=["item","object","consumable","utility","tool"]
+realList[0:3]=["air"]
+print(realList)
+
+realList=["item","object","consumable","utility","tool"]
+realList[0:3]=["air","aira","aire","airi","airo",",airu"]
+
+realList=["item","object","consumable","utility","tool"]
+List=["fijofwijo","fe"]
+realList.append("ihjoefwjo")
+print(realList)
+
+realList.insert(3,"lorem")
+print(realList)
+
+realList.extend(List)
+print(realList)
+
+otherlist=["dolor","sit","amet"]
+otherlist.remove("sit")
+print(otherlist)
+
+otherlist=["dolor","sit","amet"]
+otherlist.pop(1)
+print(otherlist)
+
+otherlist=["dolor","sit","amet"]
+otherlist.pop()
+print(otherlist)
+
+otherlist=["dolor","sit","amet"]
+otherlist.clear()
+print(otherlist)
+
+otherlist=["dolor","sit","amet"]
+del otherlist
+
+#practice2
+
+otherlist=["lorem","ipsum","dolor","sit","amet"]
+otherlist.remove("dolor")
+print(otherlist)
+otherlist.pop(1)
+print(otherlist)
+otherlist.clear()
+print(otherlist)
+del otherlist
+
+itemList=["item","veryitem","superitem"]
+for x in itemList:
+    print(x)
+for i in range(len(itemList)):
+    print(itemList[i])
+
+#practice3
+
+List=["itam","item","itim","itom","itum"]
+for x in List:
+    print(x)
+
+List=["itam","item","itim"]
+for i in range(len(List)):
+    print(List[i])
+
+i=0
+while i > len(List[i]):
+    print(List[i])
+    i=i+1
+
+[print(x)for x in List]
+'''

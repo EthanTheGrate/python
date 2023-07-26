@@ -1,0 +1,90 @@
+'''
+texts=["lorem","ipsum","dolor"]
+other=[]
+for x in texts:
+    if "l" in x:
+        other.append(x)
+print(other)
+
+texts=["sit","amet","consecteteur"]
+other=[x for x in texts if "e" in x]
+print(other)
+
+#practice
+
+objects=["table","chair","flip"]
+empty=[]
+for x in objects:
+    if "a" in x:
+        empty.append(x)
+print(empty)
+
+moreobjects=["chair","drum","stick"]
+empty=[x for x in moreobjects if "i" in x]
+print(empty)
+
+longlist=["table","chair","big","small","rock","tree"]
+longlist.sort()
+print(longlist)
+longlist.sort()
+print(longlist)
+longlist.sort(reverse=True)
+print(longlist)
+
+numlist=[4,1,5,2,3]
+numlist.reverse()
+print(numlist)
+numlist.sort()
+print(numlist)
+numlist.sort(reverse=True)
+print(numlist)
+
+#practice 2
+
+numlist=[1,5,4,3,2,8,6,7]
+numlist.reverse()
+print(numlist)
+numlist.sort()
+print(numlist)
+numlist.sort(reverse=True)
+print(numlist)
+
+wordlist=["hello","bye","greetings","notgreeting"]
+seclist=wordlist.copy()
+print(seclist)
+thirdlist=list(wordlist)
+print(thirdlist)
+
+thirdlist=seclist+wordlist
+print(thirdlist)
+print(seclist+wordlist)
+
+listfirst=[1,2,3]
+listsecond=["a","b","c"]
+for x in listsecond:
+    listfirst.append(x)
+print(listfirst)
+
+listfirst=[1,2,3]
+listsecond=["a","b","c"]
+listsecond.extend(listfirst)
+print(listsecond)
+
+#practice 3
+
+List=["taxt","text","tixt","toxt","tuxt"]
+copylist=List.copy()
+print(copylist)
+equalist=list(List)
+print(equalist)
+
+nums=[1,2,3]
+lets=["a","b","c"]
+double=nums+lets
+print(nums+lets)
+print(double)
+nums.append(lets)
+print(nums)
+lets.extend(nums)
+print(lets)
+'''

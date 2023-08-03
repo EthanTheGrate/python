@@ -1,0 +1,67 @@
+'''
+x=("mario","luigi","donkey","kong","koopa")
+y=list(x)
+y[2]="princesspeach"
+x=tuple(y)
+print(x)
+
+x=(1,2,3,4,5)
+y=list(x)
+y[2]=5
+x=tuple(y)
+print(x)
+
+x=("peach,","youre","so","cool")
+(first,second,third,fourth)=x
+print(first)
+print(second)
+print(third)
+print(fourth)
+
+y=("and","with","my","star","we're","gonna","rule")
+for x in y:
+    print(x)
+
+x=("peach,","understand")
+for i in range(len(x)):
+    print(x[i])
+
+#practice
+
+x=("i'm gonna","love","you till","the","very","end")
+(i,l,y,t,v,e)=x
+print(i)
+print(l)
+print(y)
+print(t)
+print(v)
+print(e)
+
+x=("peaches,","peaches,","peaches,","peaches,","peaches")
+for x in x:
+    print(x)
+
+x=("peaches,","peaches,","peaches,","peaches,","peaches")
+for i in range(len(x)):
+    print(x[i])
+
+x=("i","love","you,","oh")
+i=0
+while i < len(x):
+    print(x[i])
+    i=i+1
+
+a=("a","b","c")
+b=(1,2,3)
+c=(4,5,6)
+print(a+b)
+print(b+c)
+print(b*5)
+
+#practice 2
+
+x=(1,2,3)
+y=(2,3,4)
+print(x+y)
+print(x*432*8*7*8)
+'''
